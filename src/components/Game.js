@@ -19,7 +19,7 @@ const Game = () => {
 
         //select square
         squares[i] = xO;
-        setHistory([...historyPoint], squares);
+        setHistory([...historyPoint, squares]);
         setStepNumber(historyPoint.length);
         setXisNext( !xIsNext);
     };
